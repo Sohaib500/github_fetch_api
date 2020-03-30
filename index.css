@@ -1,0 +1,113 @@
+
+body
+{
+    background-image: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+}
+
+
+.card-avatar
+{
+    height: 480px;
+    width: 290px;
+    /* background-image: linear-gradient(90deg, #0f0c29, #302b63, #24243e); */
+    background-image: url('assets/images/ice-mountain-86.png');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.pic_ribbon
+{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-image: linear-gradient(90deg, #c94b4b, #b66293);
+    margin-top: 85px;
+    
+}
+
+.pic_div
+{
+   position: absolute;
+    height: 120px;
+    width: 120px;
+    /* background-image: linear-gradient(90deg, #c94b4b, #b66293); */
+    background-image: url('assets/images/dp1.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 30px;
+
+}
+
+.detail_box
+{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    /* background-image: linear-gradient(90deg, #c94b4b, #b66293); */
+    margin-top: 200px; 
+    /* orignal 150px add more 20px then 170px margin top */
+    text-align: center;
+}
+
+.user_name
+{
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.location
+{
+    text-transform: capitalize;
+    color: rgb(189, 187, 187);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.email
+{
+    color: rgb(189, 187, 187);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.repo_table_div
+{
+    position: absolute;
+    margin-top: 365px;
+    /* background-color: wheat; */
+    width: 270px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.git_btn_div
+{
+    position: absolute;
+    margin-top: 435px;
+    text-align: center;
+    width: 100%;
+}
+
+.git_btn
+{
+    background-image: linear-gradient(90deg, #c94b4b, #b66293) !important;
+    border: 0 !important;
+}
+
+
+
+.center-txt-col
+{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
